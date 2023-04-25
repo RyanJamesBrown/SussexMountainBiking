@@ -3,6 +3,7 @@
     grid-template: 120px 1fr 1fr 1fr 80px / 200px 1fr 1fr 1fr 1fr;
     background-color: darkred;
     height:95vh;
+    min-height: 800px;
 }
 
 #header {
@@ -70,7 +71,19 @@
     border-radius: 10px;
     margin:5px;
     text-align: center;
+}
 
+#locations {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.location {
+    height:100px;
+    width:80px;
+    margin:10px;
+    background-color: darkcyan;
+    box-shadow: 5 5 5 5 black;
 }
 
 #footer {
