@@ -1,7 +1,8 @@
 #main {
     display:grid;
-    grid-template: 1fr 1fr 1fr 1fr 80px / 200px 1fr 1fr 1fr 1fr;
+    grid-template: 120px 1fr 1fr 1fr 80px / 200px 1fr 1fr 1fr 1fr;
     background-color: darkred;
+    height:95vh;
 }
 
 #header {
@@ -10,6 +11,7 @@
     background-color: gainsboro;
     display:flex;
     justify-content: space-between;
+    align-items: center;
     border-radius: 10px;
     margin:5px;
 }
@@ -47,9 +49,16 @@
 .sideBarLink{
     padding:5px;
     border: 2px solid black;
+    border-radius: 5px;
     background-color: white;
     width:80%;
     text-align:center;
+}
+
+.sideBarLink a {
+    text-decoration: none;
+    color:darkred;
+    text-shadow: black;
 }
 
 #body {
@@ -60,6 +69,7 @@
     background-color: ghostwhite;
     border-radius: 10px;
     margin:5px;
+    text-align: center;
 
 }
 
